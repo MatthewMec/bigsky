@@ -1,5 +1,25 @@
+:root {
+    --primary-color: #FFD502;
+    --secondary-color: #E3000B;
+    --accent1-color: #F47D20;
+    --accent2-color: #201D48;
+  
+    --heading-font: 'Montserrat', sans-serif;
+    --paragraph-font: 'Open Sans', sans-serif;
+  
+    --headline-color-on-white: black;
+    --headline-color-on-color: black;
+    --paragraph-color-on-white: black;
+    --paragraph-color-on-color: white;
+    --paragraph-background-color: #201D48;
+    --nav-link-color: black;
+    --nav-background-color: #FFD502;
+    --nav-hover-link-color: white;
+    --nav-hover-background-color: #E3000B;
+  }
+  
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Cera Pro', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #FFFFFF;
@@ -7,16 +27,16 @@ body {
 }
 
 header {
-    background-color: #DA291C;
+    background-color: #FFD502;
     color: white;
     text-align: center;
     padding: 20px 0;
     font-size: 24px;
-    font-weight: bold;
+    word-spacing: 0;
 }
 
 h1, h2, h3 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Cera Pro', sans-serif;
 }
 
 h2 {
@@ -33,7 +53,7 @@ ul {
 }
 
 ul li {
-    background-color: #FFD500;
+    background-color: #FFD502;
     margin: 5px 0;
     padding: 10px;
     border-radius: 5px;
@@ -46,4 +66,45 @@ section {
     border-radius: 10px;
     background-color: #F8F8F8;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 35px;
+    font-weight: bold;  /* Makes text more visible */
+	font-family: Cera Pro, sans-serif;	font-size: 16px;	font-style: normal;	font-variant: normal;	font-weight: 400;
+}
+
+nav a:hover {
+    color: black;
+    border-radius: 20px;  /* Rounded cor ners on hover background */
+    text-decoration: underline;
+    border-bottom: 100px;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 3px;
+}
+hero-box
+.rivers-card, .camping-card, .rapids-card {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    justify-items: center;
+    align-items: center;
+}
+
+#hero-msg h1 {
+    color: white;
+    text-align: center;
+    z-index: 1;
+}
+
+#hero-msg h4 {
+    color: #FFB703;  /* Changed hero message color */
+    text-align: center;
+    z-index: 1;
 }
