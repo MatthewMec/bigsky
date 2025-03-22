@@ -30,16 +30,8 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
 }
 
-header {
-    height: auto;
-    padding: 5px 10px;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    box-sizing: border-box;
-    background-color: #FFD502;
-}
-    
+
+
 /* Main Content */
 .container {
     max-width: 1200px;

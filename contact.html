@@ -1,18 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big Sky Bricks | LEGO Store | Home</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/contact.css">
 </head>
 <body>
-    <header>
-        <link rel="stylesheet" href="styles/style.css">
-        <link rel="stylesheet" href="styles/contact.css">
-        <nav class="navbar">
+    <div id="content">
+        <header>
             <a id="logo_link" href="index.html">
                 <img class="logo" src="images/logo.png" alt="Big Sky Bricks Logo">
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="events.html">Events</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html" class="active">Contact</a></li>
-            </ul>
-        </nav>
+            </a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="events.html">Events</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </header>
     </header>
 
     <main class="container">
@@ -40,16 +47,8 @@
                     <h3 class="hours-title">Store Hours</h3>
                     <ul class="hours-list">
                         <li>
-                            <span class="day">Monday - Friday</span>
-                            <span class="time">10:00 AM - 7:00 PM</span>
-                        </li>
-                        <li>
-                            <span class="day">Saturday</span>
-                            <span class="time">9:00 AM - 8:00 PM</span>
-                        </li>
-                        <li>
-                            <span class="day">Sunday</span>
-                            <span class="time">11:00 AM - 5:00 PM</span>
+                            <span class="day">Tuesday - Saturday</span>
+                            <span class="time">11:00 AM - 6:00 PM</span>
                         </li>
                     </ul>
                 </div>
@@ -61,44 +60,7 @@
                 </div>
             </div>
 
-            <div class="contact-form">
-                <h2 class="contact-heading">Send Us a Message</h2>
-                <form>
-                    <div class="form-group">
-                        <label for="name" class="form-label">Your Name</label>
-                        <input type="text" id="name" class="form-control" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email" class="form-label">Email Address</label>
-                        <input type="email" id="email" class="form-control" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="phone" class="form-label">Phone Number</label>
-                        <input type="tel" id="phone" class="form-control">
-                    </div>
-                    <div class="form-group">
-                        <label for="subject" class="form-label">Subject</label>
-                        <select id="subject" class="form-control" required>
-                            <option value="" selected disabled>Select a subject</option>
-                            <option value="general">General Inquiry</option>
-                            <option value="products">Product Question</option>
-                            <option value="party">Birthday Party Information</option>
-                            <option value="program">After School Program</option>
-                            <option value="other">Other</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="message" class="form-label">Your Message</label>
-                        <textarea id="message" class="form-control" required></textarea>
-                    </div>
-                    <button type="submit" class="btn">Send Message</button>
-                </form>
-            </div>
-        </section>
-
-        <section class="map-section">
-            <img src="/api/placeholder/1200/400" alt="Map showing the location of Big Sky Bricks on Main Street">
-        </section>
+    
 
         <section class="faq-section">
             <h2 class="faq-heading">Frequently Asked Questions</h2>
