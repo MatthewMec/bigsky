@@ -17,7 +17,7 @@ body {
 .page-title {
     text-align: center;
     margin-bottom: 2rem;
-    color: #e52d27;
+    color: black;
     font-size: 2.5rem;
 }
 
@@ -48,7 +48,7 @@ body {
 }
 
 .contact-heading {
-    color: #3d5afe;
+    color: black;
     margin-bottom: 1.5rem;
     font-size: 1.8rem;
 }
@@ -78,7 +78,7 @@ body {
 }
 
 .hours-title {
-    color: #3d5afe;
+    color: black;
     margin-bottom: 1rem;
     font-size: 1.3rem;
 }
@@ -124,7 +124,7 @@ textarea.form-control {
 
 .form-control:focus {
     outline: none;
-    border-color: #3d5afe;
+    border-color: black;
 }
 
 .btn {
@@ -163,7 +163,7 @@ textarea.form-control {
 }
 
 .faq-heading {
-    color: #3d5afe;
+    color: black;
     margin-bottom: 1.5rem;
     font-size: 2rem;
     text-align: center;
@@ -177,7 +177,7 @@ textarea.form-control {
 
 .faq-question {
     font-weight: 600;
-    color: #e52d27;
+    color: black;
     margin-bottom: 0.5rem;
     font-size: 1.2rem;
 }
