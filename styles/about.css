@@ -282,25 +282,24 @@ footer {
     .navbar {
         padding: 1rem;
     }
-
     .logo {
         margin-bottom: 1rem;
         z-index: 1;
     }
-
     .nav-links {
         width: 100%;
-        justify-content: space-around;
+        display: flex;           /* Ensure flex display */
+        flex-direction: row;     /* Explicitly keep horizontal */
+        justify-content: space-between; /* More space between items */
+        padding: 0;              /* Remove any padding */
     }
-
     .nav-links li {
         margin: 0;
+        font-size: 0.9rem;       /* Slightly smaller text if needed */
     }
-
     .about-section {
         flex-direction: column-reverse;
     }
-
     .footer-section {
         flex: 100%;
     }
