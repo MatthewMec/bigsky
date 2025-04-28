@@ -288,10 +288,10 @@ footer {
     }
     .nav-links {
         width: 100%;
-        display: flex;           /* Ensure flex display */
-        flex-direction: row;     /* Explicitly keep horizontal */
-        justify-content: space-between; /* More space between items */
-        padding: 0;              /* Remove any padding */
+        display: flex;         
+        flex-direction: row;    
+        justify-content: space-between; 
+        padding: 0;              
     }
     .nav-links li {
         margin: 0;
